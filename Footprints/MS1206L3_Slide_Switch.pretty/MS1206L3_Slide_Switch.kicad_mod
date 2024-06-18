@@ -163,7 +163,7 @@
 		(remove_unused_layers no)
 		(uuid "a448aa9a-eee7-4931-88b9-2ac2cbb3ce5a")
 	)
-	(model "C:/Users/Harry/OneDrive/04_Projects/Hardware/KiCadComponents/ms1206l3-slide-swich/3DModels/MS1206L3_Slide_Switch.step"
+	(model "${MS1206L3_Slide_Switch}/3DModels/MS1206L3_Slide_Switch.step"
 		(offset
 			(xyz 0 0 0)
 		)
