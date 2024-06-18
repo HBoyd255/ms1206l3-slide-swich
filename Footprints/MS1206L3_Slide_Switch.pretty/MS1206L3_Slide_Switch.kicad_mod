@@ -1,0 +1,177 @@
+(footprint "MS1206L3_Slide_Switch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ef71ab17-0145-409b-9dd3-cf0e76d87376")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MS1206L3_Slide_Switch"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00e62654-2fed-4b4c-9b8b-77c8e3ab0c64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55362eb9-7030-47cd-86c6-ff4278a59682")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "256e52e3-a8f7-4b5d-a6e0-3babd6bcc32a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b4fefb-26f3-44d0-a27c-8625caebe838")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7 -3)
+		(end 7 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4f8212a2-45c8-4431-b2c9-8c114dd078b6")
+	)
+	(fp_rect
+		(start -3 3)
+		(end 0 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d90f0551-2202-4d46-95a5-7bdf71b72c43")
+	)
+	(fp_rect
+		(start 0 3)
+		(end 3 6)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "df7e675d-f284-4293-b47b-026b1777c620")
+	)
+	(fp_rect
+		(start -8 -3.5)
+		(end 8 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "53caccc8-c46a-43fb-b756-b9804a75590b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14397480-a615-4913-82a7-4614872725fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3 0 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "451f7b6b-9048-4c6b-ae9f-e6db5cb0b1eb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b7a7ff6-65e1-4133-90bd-6e282f2fdd2e")
+	)
+	(pad "3" thru_hole circle
+		(at 3 0 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74d7e51a-a334-4ae9-bc65-ec190ec87746")
+	)
+	(pad "GND" thru_hole circle
+		(at -6.3 0 90)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acf860e5-8248-4f30-bdcb-3cfeb9946ea5")
+	)
+	(pad "GND" thru_hole circle
+		(at 6.3 0 90)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a448aa9a-eee7-4931-88b9-2ac2cbb3ce5a")
+	)
+	(model "C:/Users/Harry/OneDrive/04_Projects/Hardware/KiCadComponents/ms1206l3-slide-swich/3DModels/MS1206L3_Slide_Switch.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
