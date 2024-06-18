@@ -123,6 +123,22 @@
 			)
 		)
 	)
+	(pad "" thru_hole circle
+		(at -6.3 0 90)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acf860e5-8248-4f30-bdcb-3cfeb9946ea5")
+	)
+	(pad "" thru_hole circle
+		(at 6.3 0 90)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a448aa9a-eee7-4931-88b9-2ac2cbb3ce5a")
+	)
 	(pad "1" thru_hole circle
 		(at -3 0 90)
 		(size 2 2)
@@ -146,22 +162,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "74d7e51a-a334-4ae9-bc65-ec190ec87746")
-	)
-	(pad "GND" thru_hole circle
-		(at -6.3 0 90)
-		(size 2.5 2.5)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "acf860e5-8248-4f30-bdcb-3cfeb9946ea5")
-	)
-	(pad "GND" thru_hole circle
-		(at 6.3 0 90)
-		(size 2.5 2.5)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a448aa9a-eee7-4931-88b9-2ac2cbb3ce5a")
 	)
 	(model "${MS1206L3_Slide_Switch}/3DModels/MS1206L3_Slide_Switch.step"
 		(offset
