@@ -4,7 +4,7 @@ Harry Boyd - hboyd255@gmail.com - 18/06/2024
 
 This is a KiCad library for the MS1206L3 Slide Switch.
 
-![MS1206L3 Slide Switch](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5558/MFG_MS1206L3.jpg)
+![MS1206L3 Slide Switch](/Photos/reference.jpg)
 
 
 Available for purchase on
